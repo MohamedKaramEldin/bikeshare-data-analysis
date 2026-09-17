@@ -9,7 +9,7 @@ In this repository, I explore bike-sharing data using a Python application and a
 
 ## Data
 
-The datasets used in this project are not included in the repository because of their file size.
+The datasets used in this project are not included in the repository because of their file size. However, all datasets are available through online dataset archives listed below.
 
 The command-line application expects the following files inside the same directory:
 
@@ -18,6 +18,11 @@ The command-line application expects the following files inside the same directo
 - `washington.csv`
 
 The two parts use different datasets.
+
+The Ford GoBike exploration uses `201902-fordgobike-tripdata.csv`, which is available through Kaggle.
+
+During the exploration, the original dataset was cleaned and saved as `clean_2019_GoBike.csv`. This cleaned dataset was then used to create the presentation in `slide_deck.ipynb`.
+
 
 ## Run the Python application
 
@@ -43,5 +48,3 @@ Follow the prompts to choose a city (`ch`, `ny`, or `w`) and any time filters
 ## Read the exploration
 
 Open `exploration.html` in a browser to read the analysis and plots. The presentation is also available as HTML and as `slide_deck.ipynb`.
-
-To run the presentation notebook, keep the original dataset `201902-fordgobike-tripdata.csv` -which can be downloaded from Kaggle- beside the notebook.
